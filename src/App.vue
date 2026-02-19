@@ -249,9 +249,10 @@ function isValidDate(year, month, day) {
 async function loadData() {
   try {
     // 加载所有数据文件
+    const base = import.meta.env.BASE_URL
     const [routineRes, eventsRes] = await Promise.all([
-      fetch('/data/daily_routine.json'),
-      fetch('/data/historical_events.json')
+      fetch(`${base}data/daily_routine.json`),
+      fetch(`${base}data/historical_events.json`)
     ])
 
     const dailyRoutine = await routineRes.json()

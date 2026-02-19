@@ -113,7 +113,6 @@
     <!-- 底部信息 -->
     <footer class="footer">
       <p>本站内容基于历史文献整理，仅供历史研究参考</p>
-      <p class="footer-note">数据更新中 · 更多内容即将添加</p>
       <div class="social-links-icons">
         <a href="https://github.com/Comui520/What-was-Mao-doing-at-this-time-in-the-past" target="_blank" rel="noopener noreferrer" title="GitHub">
           <img src="/images/github.png" alt="GitHub" class="social-icon">
